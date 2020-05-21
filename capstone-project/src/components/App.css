@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+}
+
+.Header {
+  background-color: rgba(125, 50, 50, 0.7);
+  margin: 0;
+  padding: 0.5%;
+  position: fixed;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-bottom: 4px solid black;
+}
+
+.Header h2 {
+  margin: 0 0 0 8%;
+  padding: 0;
+  flex-grow: 100;
+  color: gold;
+  background-color: rgba(125, 50, 50, 0.01);
+  text-shadow: 3px 3px #000000;
+}
+
+.Header ul {
+  float: right;
+  display: flex;
+  margin: 0 5% 0 0;
+  padding: 0;
+  flex-grow: 1;
+}
+
+.Header li {
+  list-style: none;
+  margin: 10%;
+  justify-self: right;
+}
+
+#logo {
+  width: 350px;
+  height: 40px;
+  position: fixed;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.container {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b150a7b-3b18-425b-bca6-cb29429e215a/d9r8kp4-339eaf59-589a-45c3-9492-8d4a5c7aaa6f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi82YjE1MGE3Yi0zYjE4LTQyNWItYmNhNi1jYjI5NDI5ZTIxNWEvZDlyOGtwNC0zMzllYWY1OS01ODlhLTQ1YzMtOTQ5Mi04ZDRhNWM3YWFhNmYuanBnIn1dXX0.QMxziSpFmTrTjvPd7oDybF4N0KXJJRMr6qugKampqKY');
+  background-repeat: no-repeat;
+  background-size: 100vw 110vh;
+  padding: 4% 5px 0.95% 5px;
+  color: rgb(220, 200, 200);
+}
+
+.container .SearchItemList {
+  background-color: rgba(75, 40, 40, 0.95);
+  margin-left: 3%;
+  width: 38.75vw;
+  height: 89.4vh;
+  border: 2px solid black;
+}
+
+.container .SearchItemList h2 {
+  margin-left: 15%;
+}
+
+.container .SearchItemList h2 {
+  margin-left: 15%;
+}
+
+.container .UserItemList {
+  background-color: rgba(75, 40, 40, 0.98);
+  height: 58.25vh;
+}
+.container .UserItemList li {
+  text-align: left;
+}
+
+.container .StatCalculator {
+  margin: 1.5% 2% 0 2%;
+  background-color: rgba(75, 40, 40, 0.98);
+  height: 30vh;
+  border: 2px solid black;
+  border-bottom: none;
+}
+
+.container .StatCalculator div{
+  margin: 0 4.5% 0 4.5%;
+}
+
+.ItemLists {
+  background-color: rgba(100, 25, 25, 0.5);
+  width: 80vw;
+  display: grid;
+  margin: 0 10% 0 10%;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+}
+
+.ItemLists img {
+  width: 35px;
+  height: 35px;
+}
+
+.ItemLists .UserItemList {
+  margin: 0 2% 0 2%;
+  background-color: rgba(75, 40, 40, 0.98);
+  overflow: auto;
+  border: 2px solid black;
+  border-top: none;
+}
+
+.ItemLists .UserItemList h2 {
+  margin: 0;
+  padding: 1% 0 0 0;
+}
+
+.ItemLists .UserItemList p {
+  margin: 0;
+  padding: 0;
+}
+
+#AllUserItems {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+#BottomUserItems {
+  margin-top: 101%;
+  display: flex;
+  text-align: center;
+}
+
+.StatCalculator {
+  overflow: auto;
+}
+
+.StatCalculator ul {
+  display: flex;
+}
+
+.StatCalculator li {
+  margin: 0 1% 0 1%;
+  padding-right: 1%;
+  list-style: none;
+}
+
+.About {
+  margin: 0 5% 0 5%;
+}
+
+.SearchListResults {
+  width: 33vw;
+  height: 71.5vh;
+  background-color: rgb(20, 10, 10);
+  margin: 7%;
+  overflow: auto;
+  border: 4px solid black;
+}
+
+.SearchListResults ul {
+  padding-top: 1%;
+}
+
+.SearchListResults li {
+  margin: 5% 15% 10% 10%;
+}
